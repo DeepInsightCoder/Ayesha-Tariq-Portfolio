@@ -4,39 +4,60 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ayesha Tariq's Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <h1>Welcome to Ayesha Tariq's Portfolio</h1>
-        <p>Data Scientist | Machine Learning Enthusiast | Business Intelligence</p>
+    <!-- Header Section -->
+    <header class="header">
+        <div class="container">
+            <h1 class="name">Ayesha Tariq</h1>
+            <p class="tagline">Data Scientist | Business Intelligence Enthusiast</p>
+            <p class="rotating-tagline">Transforming Data into Insights</p>
+        </div>
     </header>
-    <nav>
-        <a href="#about">About Me</a> | 
-        <a href="#projects">Projects</a> | 
-        <a href="#contact">Contact</a>
-    </nav>
-    <section id="about">
-        <h2>About Me</h2>
-        <p>Hello! I'm Ayesha Tariq, currently pursuing my degree in Data Science. I am passionate about using data to drive decisions and have experience in machine learning, data visualization, and analytics.</p>
+
+    <!-- About Me Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>I am a passionate data scientist with expertise in Python, SQL, Power BI, and machine learning. I thrive on solving business challenges with data-driven solutions.</p>
+        </div>
     </section>
-    <section id="projects">
-        <h2>My Projects</h2>
-        <ul>
-            <li><a href="https://github.com/DeepInsightCoder/Foodpanda-Report">Foodpanda Power BI Report</a></li>
-            <li><a href="https://github.com/DeepInsightCoder/Crop-Recommendation">Crop Recommendation System</a></li>
-            <li><a href="https://github.com/DeepInsightCoder/Disease-Detection">Disease Detection Models</a></li>
-            <li><a href="https://github.com/DeepInsightCoder/Big-Data-Analytics">Big Data Analytics with PySpark</a></li>
-        </ul>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>FoodPanda Sales Analysis</h3>
+                <p>Power BI dashboards showcasing sales trends and customer insights.</p>
+            </div>
+            <div class="project">
+                <h3>Crop Recommendation System</h3>
+                <p>Machine learning model suggesting optimal crops based on soil and climate data.</p>
+            </div>
+            <div class="project">
+                <h3>Customer Sentiment Analysis</h3>
+                <p>Dynamic pricing model using sentiment analysis of customer feedback.</p>
+            </div>
+        </div>
     </section>
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>Email: ayeshtariq604@gmail.com</p>
-        <p>GitHub: <a href="https://github.com/DeepInsightCoder">github.com/DeepInsightCoder</a></p>
-        <p>LinkedIn: <a href="https://linkedin.com/in/ayesha-tariq-thedatascientist">linkedin.com/in/ayesha-tariq-thedatascientist</a></p>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <p>Let's connect!</p>
+            <ul>
+                <li><a href="https://www.linkedin.com/in/ayesha-tariq-thedatascientist" target="_blank">LinkedIn</a></li>
+                <li><a href="mailto:ayeshtariq604@gmail.com">Email Me</a></li>
+                <li><a href="https://github.com/DeepInsightCoder" target="_blank">GitHub</a></li>
+            </ul>
+        </div>
     </section>
-    <footer>
-        <p>&copy; 2024 Ayesha Tariq</p>
-    </footer>
+
+    <script src="js/script.js"></script>
 </body>
 </html>
